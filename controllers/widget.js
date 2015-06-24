@@ -31,7 +31,7 @@ function validation(){
 				], function(errors) {
 					if(errors.length > 0) {
 						for (var i = 0; i < errors.length; i++) {
-							jumper.log(errors[i].message);
+							//jumper.log(errors[i].message);
 							//alert(errors[i].message);
 							//Ti.API.log(errors[i]);
 							$.warning_title.text = errors[i].message;
@@ -49,7 +49,7 @@ function validation(){
 					} else {
 						$.warning.visible = false;
 						$.warning_title.visible = false;
-					
+
 					}
 				});
 }
@@ -70,5 +70,9 @@ $.getField = function(){
 $.getValue = function(){
 	return $.field.value;
 };
+
+$.setValue = function(_val){
+	$.field.value = _val;
+}
 
 require('WidgetTools').cleanArgs(args);
