@@ -11,6 +11,9 @@ Alloy widget with self validating simple text field
 http://haberdasheryjs.com/form-validation-module-for-titanium-mobile/
 https://github.com/haberdasheryjs/hdjs.validate.js/tree/master
 
+3.Font Awesome Ti.Widget 1.4.1. An Offical Font Awesome 4.3.0 by Dave Gandy for Titanium Alloy!
+https://github.com/MattMcFarland/com.mattmcfarland.fontawesome
+
 Uses:
 <Widget src="jumperTextField" title="First Name" id="firstname" rules="required" />
 <Widget src="jumperTextField" title="Last Name" id="lastname" rules="required" />
