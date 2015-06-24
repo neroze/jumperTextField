@@ -1,0 +1,17 @@
+<Alloy>
+	<View class="col h70 col-4 cCard">
+		<Label class="no-bold w-30% h-20 togallyLabel" left="15"  top="0" id="field_label">  </Label>
+		<Label class="w-62% h-20 warning" top="0" right="15" id="warning_title" text=""></Label> 
+
+    	<TextField class="input-border-rounded 
+              input-tf 
+              input-bm-always 
+              input-clear-on-edit 
+              input-enable-return-key 
+              bg-transparent t-20 togallyTestField" onBlur="validation" onFocus="hideError" hintText="" width="95%" id="field" />
+
+         <Label visible="false" id="warning" class="fa-exclamation-triangle t-25 fs15 r-20" color="red"  icon="fa-exclamation-triangle" ></Label>
+	 		
+        <Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+	</View>
+</Alloy>

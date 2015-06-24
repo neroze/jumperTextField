@@ -1,0 +1,13 @@
+{
+	"id": "jumperTextField",
+	"name": "jumperTextField",
+	"description" : "Alloy widget with self validating simple text field",
+	"author": "Jumper -- neerooze@gmail.com",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2015",
+	"license":"Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"",
+	"platforms":"android,ios"
+}
