@@ -1,3 +1,5 @@
+<img src="http://gitt.io/badge.svg"/>
+
 # jumperTextField
 Alloy widget with self validating simple text field
 
