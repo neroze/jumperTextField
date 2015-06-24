@@ -62,7 +62,6 @@ $.blur = function(e){
 	$.field.blur();
 };
 
-
 $.getField = function(){
 	return $.field;
 };
