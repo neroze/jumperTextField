@@ -6,4 +6,31 @@
 	},
 	height: Ti.UI.SIZE,
 	width: Ti.UI.SIZE
+},
+".togallyLabel":{
+    color:'#333',
+    font:{
+        fontFamily: 'HelveticaNeue-LightItalic',
+        fontSize: '9dp',
+         fontWeight: 200
+
+    }
+},
+".togallyTestField":{
+    font:{
+        fontFamily: 'HelveticaNeue-LightItalic',
+        fontSize: '11dp',
+        fontWeight: 200
+    },
+    height:'30dp',
+    color:"#333"
+    
+},
+'.warning':{
+    color:'#AA3939',
+    font:{
+        fontFamily: 'HelveticaNeue-LightItalic',
+        fontSize: '9dp',
+        fontWeight: 200
+    },
 }
