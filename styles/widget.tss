@@ -33,4 +33,14 @@
         fontSize: '9dp',
         fontWeight: 200
     },
-}
+},
+'.fs15':{
+    font:{
+        fontSize:'15dp'
+    }
+},
+'.fs12':{
+    font:{
+        fontSize:'12dp'
+    }
+},
