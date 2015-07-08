@@ -17,10 +17,17 @@ https://github.com/haberdasheryjs/hdjs.validate.js/tree/master
 https://github.com/MattMcFarland/com.mattmcfarland.fontawesome
 
 Uses:
-<Widget src="jumperTextField" title="First Name" id="firstname" rules="required" />
-<Widget src="jumperTextField" title="Last Name" id="lastname" rules="required" />
-<Widget src="jumperTextField" title="Email" id="email" rules="required|valid_email" />
-<Widget src="jumperTextField" title="Password" id="password" rules="required|min_length[6]|alpha_numeric" />
+
+&lt;Widget src="jumperTextField" title="First Name" id="firstname" rules="required" /&gt; <br>
+
+&lt;Widget src="jumperTextField" title="Last Name" id="lastname" rules="required" /&gt; <br>
+
+&lt;Widget src="jumperTextField" title="Email" id="email" rules="required|valid_email" /&gt; <br>
+
+&lt;Widget src="jumperTextField" title="Password" id="password" rules="required|min_length[6]|alpha_numeric" /&gt; <br>
+
+ 
+
 #geting value:
 var _firstname = $.firstname.getValue()
 
