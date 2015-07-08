@@ -21,6 +21,10 @@ Uses:
 <Widget src="jumperTextField" title="Last Name" id="lastname" rules="required" />
 <Widget src="jumperTextField" title="Email" id="email" rules="required|valid_email" />
 <Widget src="jumperTextField" title="Password" id="password" rules="required|min_length[6]|alpha_numeric" />
+#geting value:
+var _firstname = $.firstname.getValue()
+
+<br>
 
 Preview
 <img src="http://nirajmaharjan.com.np/freefiles/screenshot.png"/>
